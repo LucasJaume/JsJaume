@@ -1,0 +1,105 @@
+marquee {
+    font-family: Poppins;
+    border-bottom: solid 3px rgb(0, 0, 0);
+    padding: 5px;
+  }
+  
+  .btn .btnCard {
+    background-color: black;
+  }
+  .mainHome {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    font-family: Poppins;
+  }
+  .mainHome .imagenfondo {
+    background-image: url(../media/ciclista.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+    width: 100%;
+    margin: 10px 0px;
+  }
+  .mainHome .imagenfondo .bloques {
+    display: flex;
+  }
+  .mainHome .imagenfondo .bloques .bloque {
+    border: 1px solid rgb(255, 0, 0);
+    box-shadow: 0px 0px 5px rgba(49, 32, 32, 0.665);
+    margin: 5px 5px 0 5px;
+    background-color: rgb(255, 255, 255);
+  }
+  .mainHome .imagenfondo .bloques .bloque img {
+    height: 300px;
+    width: 300px;
+    padding: 5px;
+  }
+  .mainHome .imagenfondo .bloques .bloque p {
+    margin: 10px;
+  }
+  
+  @media screen and (min-width: 447px) {
+    .bloque {
+      max-width: 450px;
+      width: 100%;
+    }
+  }
+
+  /* ESTILOS PARA FOOTER */
+
+  footer {
+    height: 100px;
+    background-color: rgb(255, 0, 0);
+    background-size: cover;
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+  }
+  footer .iconos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  footer .iconos a {
+    color: rgb(0, 0, 0);
+    margin-right: 20px;
+  }
+  footer .iconos a p {
+    display: inline-block;
+  }
+
+  /* ESTILOS PARA EL HEADER*/
+.navbar {
+    font-family: "Roboto Slab", serif;
+    align-items: center;
+  }
+  .navbar .barra {
+    display: flex;
+    font-size: 20px;
+  }
+  .navbar .barra ul {
+    padding-right: 20px;
+  }
+  .navbar .barra ul li {
+    list-style: none;
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px;
+    transition: 0.8s;
+  }
+  .navbar .barra ul li a {
+    text-decoration: none;
+    color: rgb(255, 0, 0);
+    transition: 0.5s;
+  }
+  .navbar .barra ul li a:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 0, 0);
+    border-radius: 10px;
+    text-decoration: underline;
+    transform: scale(1.2);
+  }
